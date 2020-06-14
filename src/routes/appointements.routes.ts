@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { startOfHour, parseISO } from 'date-fns';
+import { parseISO } from 'date-fns';
 import AppointmentRepository from '../repositories/AppointementRepository';
 import CreateAppointmentSevice from '../services/CreateAppointmentSevice';
 
