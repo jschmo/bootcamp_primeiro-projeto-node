@@ -6,7 +6,7 @@ export default class CreateAppointments1592193729827
     await queryRunner.createTable(
       new Table({
         name: 'appointments',
-        columns: [yarn typeorm migration:show
+        columns: [
           {
             name: 'id',
             type: 'varchar',
